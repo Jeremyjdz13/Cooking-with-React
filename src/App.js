@@ -6,7 +6,7 @@ export const ThemeContext = React.createContext()
 
 function App() {
   console.log('Render App')
-  const [theme, setTheme] = useState('red')
+  const [theme, setTheme] = useState('green')
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme}}>
       {/* // initialCount is a prop we are passing to child components.  Props always pass from Parent to Child.  Not the other way. */}
